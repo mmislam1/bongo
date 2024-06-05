@@ -1,6 +1,12 @@
 
 
-
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:75%;
+  
+}
 
 .istok-web-regular {
   font-family: "Istok Web", sans-serif;
