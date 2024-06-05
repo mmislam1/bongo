@@ -1,11 +1,17 @@
-*{margin: 0;
-padding:0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.tester{
-    background-color: bisque;
-    min-width: 100%;
+.tester {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 60%;
+  margin-bottom: 2rem;
 }
 
 .center {
@@ -13,22 +19,28 @@ box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width:100%;
-  background-color: aqua;
-  
+  max-width: 100%;
+  margin: 0 0 5rem 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
 }
 
-.indent{
-    padding-left: 2rem;
+.indent {
+  padding-left: 2rem;
 }
+
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .slender {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  max-width:60%;
-  background-color: aqua;
-  
+  max-width: 60%;
+  background-color: rgb(255, 255, 255);
 }
 
 .istok-web-bold {
@@ -45,7 +57,7 @@ box-sizing: border-box;
   font-size: 1.5rem;
 }
 
-img{
-    min-width: 100%;
-    height:auto;
+img {
+  min-width: 100%;
+  height: auto;
 }
